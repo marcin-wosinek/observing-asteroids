@@ -1,7 +1,6 @@
 '''
 Created on Jan 3, 2013
 
-@author: dagmaraoszkiewicz
 '''
 
 import os
