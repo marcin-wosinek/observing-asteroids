@@ -1,0 +1,25 @@
+<html><body>
+    <img id="boo">
+    <script language="JavaScript">
+      <!--
+
+      var currentTime = new Date();
+      var month = currentTime.getMonth()+1;
+      var day = currentTime.getDate();
+      var year = currentTime.getFullYear();
+      document.write(""+ month + "/" + day + "/" + year);
+
+      if(month<10){
+        month="0"+month;
+      }
+      if(day<10){
+        day="0"+day;
+      }
+
+      var url_string ="http://catserver.ing.iac.es/staralt/index.php?action=showImage&form[mode]=1&form[day]="+day+"&form[month]="+month+"&form[year]="+year+"&form[observatory]=1&form[sitecoord]=&form[coordlist]=HR5459%2014%2039%2036.49400%20-60%2050%2002.3737%0D%0A*18Sco%2016%2015%2037.26%20-08%2022%2009.98%0D%0ALTT2525%2006%2020%2006.14%20-48%2044%2027.93%0D%0ALTT15980%2020%2028%2011.81%2022%2007%2044.37%0D%0AHD138573%2015%2032%2043.65%2010%2058%2005.87%0D%0AHD142093%2015%2052%2000.55%2015%2014%2009.31%0D%0AHD98618%2011%2021%2029.07%2058%2029%2003.70%0D%0AG16-24%2016%2000%2018.83%2000%2008%2013.23%0D%0AHD129357%2014%2041%2022.39%2029%2003%2031.70%0D%0ALTT14484%2015%2005%2013.24%2006%2017%2023.67%0D%0AHD101364%2011%2040%2028.48%2069%2000%2030.59%0D%0A&form[coordfile]=&form[paramdist]=2&form[minangle]=10&form[format]=gif&submit=+Retrieve+";
+      var el = document.getElementById("boo");
+      el.setAttribute("src", url_string);
+
+      //-->
+    </script>
+</body></html>
